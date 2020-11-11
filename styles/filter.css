@@ -1,0 +1,89 @@
+.filter {
+    margin-top: 100px;
+    background-color: lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 12px;
+    position: relative;
+    z-index: 1;
+}
+
+.filter div {
+    padding: 1px;
+}
+
+.filter p {
+    color: #51007c;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.filter label {
+    border: 1px solid #51007c;
+    margin-bottom: 0;
+    background-color: white;
+    color: #51007c;
+    padding: 8px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.filter label:hover {
+    background-color: #51007c;
+    color: white;
+    cursor: pointer;
+}
+
+.filter input:checked+label {
+    background-color: #51007c;
+    color: white;
+}
+
+#get-cards {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#by_time_frame, #by_category, #by_group_size {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#btn-get-cards {
+    background-color: white;
+    color: #51007c;
+    padding: 8px;
+    border: 1px solid red;
+    font-weight: bold;
+    width: 100%;
+}
+
+#btn-get-cards:hover {
+    background-color: #51007c;
+    color: white;
+}
+
+#title_bottom {
+    margin-top: 35px;
+}
+
+#footerFilter {
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    color: #51007c;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+    #by_time_frame div, #by_category div, #by_group_size div {
+        padding: 5px;
+    }
+
+
+
+}

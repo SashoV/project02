@@ -1,0 +1,27 @@
+body {
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+}
+.container-fluid {
+    background-color: #51007c;
+    color: white;
+    height: 100vh;
+}
+
+.my_btn {
+    font-weight: bold;
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.btn_yellow {
+    background-color: #fbd754;
+    color: black;
+}
+
+.btn_yellow:hover, .btn_yellow:focus {
+    background-color: black;
+    color: #fbd754;
+}

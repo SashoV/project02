@@ -1,0 +1,43 @@
+body {
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    background-color: #51007c;
+    color: white;
+}
+
+.header {
+    height: 100px;
+}
+
+.message {
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.my_btn {
+    font-weight: bold;
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.btn_yellow {
+    background-color: #fbd754;
+    color: black;
+}
+
+.btn_yellow:hover, .btn_yellow:focus {
+    background-color: black;
+    color: #fbd754;
+}
+
+.btn_black {
+    background-color: black;
+    color: #fbd754;
+}
+
+.btn_black:hover, .btn_black:focus {
+    background-color: #fbd754;
+    color: black;
+}
